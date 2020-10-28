@@ -1,0 +1,16 @@
+import wollok.game.*
+import configuraciones.*
+import visuales.*
+program golfito{
+	//nivelUno.inicio()
+
+
+	const anchoTotal = 25
+	const altoTotal = 15
+
+		game.title("Golfito")
+		game.width(anchoTotal)
+		game.height(altoTotal)
+		game.boardGround("Inicio.jpg")
+			game.start()
+}
